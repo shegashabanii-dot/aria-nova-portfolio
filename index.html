@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aria Nova — Graphic & UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- ══════════ NAV ══════════ -->
+  <nav id="nav">
+    <a href="#" class="nav-logo">Aria Nova<span class="logo-dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#work" class="nav-link">Work</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Let's talk</a>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mob-menu" id="mobMenu">
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero" id="hero">
+
+    <!-- Floating decorative shapes -->
+    <div class="shape s-circle-lg" aria-hidden="true"></div>
+    <div class="shape s-circle-sm" aria-hidden="true"></div>
+    <div class="shape s-star" aria-hidden="true">
+      <svg viewBox="0 0 60 60" fill="none"><path d="M30 0L33.5 26.5L60 30L33.5 33.5L30 60L26.5 33.5L0 30L26.5 26.5Z" fill="currentColor"/></svg>
+    </div>
+    <div class="shape s-star-sm" aria-hidden="true">
+      <svg viewBox="0 0 40 40" fill="none"><path d="M20 0L22.5 17.5L40 20L22.5 22.5L20 40L17.5 22.5L0 20L17.5 17.5Z" fill="currentColor"/></svg>
+    </div>
+    <div class="shape s-leaf" aria-hidden="true">
+      <svg viewBox="0 0 80 120" fill="none"><path d="M40 120C40 120 0 80 0 40C0 17.9 17.9 0 40 0C62.1 0 80 17.9 80 40C80 80 40 120 40 120Z" fill="currentColor"/></svg>
+    </div>
+    <div class="shape s-asterisk" aria-hidden="true">
+      <svg viewBox="0 0 60 60" fill="none">
+        <line x1="30" y1="2" x2="30" y2="58" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+        <line x1="2" y1="30" x2="58" y2="30" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+        <line x1="8" y1="8" x2="52" y2="52" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+        <line x1="52" y1="8" x2="8" y2="52" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="shape s-donut" aria-hidden="true">
+      <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="36" stroke="currentColor" stroke-width="8"/></svg>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-tag">
+        <span class="avail-dot"></span> Available for projects
+      </div>
+      <h1 class="hero-title">
+        <span class="line l1"><em>Graphic</em> &amp; UI/UX</span>
+        <span class="line l2">designer creating</span>
+        <span class="line l3">experiences that</span>
+        <span class="line l4"><em>move people.</em></span>
+      </h1>
+      <div class="hero-footer">
+        <p class="hero-sub">I create living, breathing digital work for brands<br>that want to be <em>felt</em>, not just seen.</p>
+        <a href="#work" class="hero-cta">
+          <span>View work</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-track"><div class="scroll-thumb"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ══════════ TICKER ══════════ -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>Visual Design</span><span class="sep">✦</span>
+      <span>UI/UX Design</span><span class="sep">✦</span>
+      <span>Brand Identity</span><span class="sep">✦</span>
+      <span>AI-Powered Design</span><span class="sep">✦</span>
+      <span>Interaction Design</span><span class="sep">✦</span>
+      <span>Motion &amp; Animation</span><span class="sep">✦</span>
+      <span>Visual Design</span><span class="sep">✦</span>
+      <span>UI/UX Design</span><span class="sep">✦</span>
+      <span>Brand Identity</span><span class="sep">✦</span>
+      <span>AI-Powered Design</span><span class="sep">✦</span>
+      <span>Interaction Design</span><span class="sep">✦</span>
+      <span>Motion &amp; Animation</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ══════════ WORK ══════════ -->
+  <section class="sec-work" id="work">
+    <div class="container">
+      <div class="sec-head">
+        <span class="label">Selected Work</span>
+        <h2>Projects that<br /><em>define craft.</em></h2>
+      </div>
+
+      <div class="work-list">
+
+        <!-- Project 1 -->
+        <article class="proj" data-num="01">
+          <div class="proj-img pi-1">
+            <div class="proj-art">
+              <div class="pa-circle pc-big"></div>
+              <div class="pa-circle pc-small"></div>
+              <div class="pa-letter">N</div>
+            </div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">Brand Identity</span>
+            <h3>NeoBank — Fintech brand system</h3>
+            <p>Full visual identity for a challenger bank — logo, type, colour, motion principles, and a 60-page brand guideline.</p>
+            <a href="#" class="proj-link">View case study <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="proj reverse" data-num="02">
+          <div class="proj-img pi-2">
+            <div class="proj-art">
+              <div class="pa-phone">
+                <div class="pa-notch"></div>
+                <div class="pa-ph-h"></div>
+                <div class="pa-ph-c pa-ph-c1"></div>
+                <div class="pa-ph-c pa-ph-c2"></div>
+                <div class="pa-ph-nav"></div>
+              </div>
+            </div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">UI/UX Design</span>
+            <h3>Pulse Health — App redesign</h3>
+            <p>Complete product redesign lifting retention by 28%. Research, wireframes, high-fidelity UI, and developer handoff.</p>
+            <a href="#" class="proj-link">View case study <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="proj" data-num="03">
+          <div class="proj-img pi-3">
+            <div class="proj-art">
+              <div class="pa-grid">
+                <div class="pg-cell c1"></div>
+                <div class="pg-cell c2"></div>
+                <div class="pg-cell c3"></div>
+                <div class="pg-cell c4"></div>
+                <div class="pg-cell c5"></div>
+                <div class="pg-cell c6"></div>
+              </div>
+            </div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">AI Design</span>
+            <h3>Luma Studio — AI visual identity</h3>
+            <p>Brand identity directed and refined using AI tools — 12 concept directions delivered in a 3-day sprint.</p>
+            <a href="#" class="proj-link">View case study <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ ABOUT ══════════ -->
+  <section class="sec-about" id="about">
+    <!-- Decorative shapes -->
+    <div class="shape sa-circle" aria-hidden="true"></div>
+    <div class="shape sa-star" aria-hidden="true">
+      <svg viewBox="0 0 60 60" fill="none"><path d="M30 0L33.5 26.5L60 30L33.5 33.5L30 60L26.5 33.5L0 30L26.5 26.5Z" fill="currentColor"/></svg>
+    </div>
+
+    <div class="container about-grid">
+      <div class="about-img">
+        <div class="ai-frame">
+          <div class="ai-initials">AN</div>
+          <div class="ai-tag">✦ 6 years experience</div>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="label">My design practice</span>
+        <h2>Designing, building, and refining as one continuous process.</h2>
+        <p>I'm Aria — a graphic and UI/UX designer with six years of experience creating identities and products for startups, agencies, and global brands. I was early to embrace AI as a creative amplifier, not a shortcut.</p>
+        <p>I believe good design is invisible. It works, it feels right, and it earns trust before a single word is read.</p>
+        <div class="about-skills">
+          <span>Visual design</span>
+          <span>Interaction design</span>
+          <span>UI/UX</span>
+          <span>AI-powered</span>
+          <span>Brand identity</span>
+          <span>Motion</span>
+        </div>
+        <div class="about-stats">
+          <div class="as-item">
+            <strong class="count" data-target="80">0</strong><span>+</span>
+            <p>Projects</p>
+          </div>
+          <div class="as-item">
+            <strong class="count" data-target="40">0</strong><span>+</span>
+            <p>Clients</p>
+          </div>
+          <div class="as-item">
+            <strong class="count" data-target="6">0</strong>
+            <p>Years</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SERVICES ══════════ -->
+  <section class="sec-services" id="services">
+    <div class="container">
+      <div class="sec-head">
+        <span class="label">What I Do</span>
+        <h2>Design services,<br /><em>supercharged by AI.</em></h2>
+      </div>
+
+      <div class="svc-grid">
+        <div class="svc-item">
+          <div class="svc-num">01</div>
+          <h3>Visual Design</h3>
+          <p>Brand systems, logos, print, packaging, social kits — every surface, every scale.</p>
+          <div class="svc-tags"><span>Identity</span><span>Print</span><span>Social</span></div>
+        </div>
+        <div class="svc-item">
+          <div class="svc-num">02</div>
+          <h3>UI/UX Design</h3>
+          <p>User research, wireframes, prototypes, and pixel-perfect Figma files ready for handoff.</p>
+          <div class="svc-tags"><span>Apps</span><span>Dashboards</span><span>Web</span></div>
+        </div>
+        <div class="svc-item featured">
+          <div class="svc-badge">✦ AI-Powered</div>
+          <div class="svc-num">03</div>
+          <h3>AI Brand Identity</h3>
+          <p>Full brand systems created with AI-assisted ideation — 2× faster, same craft, more directions.</p>
+          <div class="svc-tags"><span>Midjourney</span><span>Firefly</span><span>Claude</span></div>
+        </div>
+        <div class="svc-item">
+          <div class="svc-num">04</div>
+          <h3>AI Design Sprint</h3>
+          <p>3-day focused sprint: moodboard, 10+ concepts, refined output, prompt library included.</p>
+          <div class="svc-tags"><span>3 days</span><span>Fast</span><span>Creative</span></div>
+        </div>
+        <div class="svc-item">
+          <div class="svc-num">05</div>
+          <h3>Interaction Design</h3>
+          <p>Motion principles, micro-interactions, and animation specs that bring interfaces to life.</p>
+          <div class="svc-tags"><span>Motion</span><span>Micro-UX</span><span>Framer</span></div>
+        </div>
+        <div class="svc-item">
+          <div class="svc-num">06</div>
+          <h3>Design Consulting</h3>
+          <p>Audit, improve, and align your existing product or brand. Clear roadmap delivered.</p>
+          <div class="svc-tags"><span>Audit</span><span>Strategy</span><span>Roadmap</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ PROCESS ══════════ -->
+  <section class="sec-process">
+    <div class="container">
+      <div class="sec-head center">
+        <span class="label">How I Work</span>
+        <h2>A process built for<br /><em>great outcomes.</em></h2>
+      </div>
+      <div class="proc-steps">
+        <div class="proc-item">
+          <div class="proc-icon">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/><path d="M12 20h16M20 12v16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <span class="proc-num">01</span>
+          <h3>Listen &amp; define</h3>
+          <p>Deep discovery — your goals, users, and competitive landscape before a single sketch is made.</p>
+        </div>
+        <div class="proc-arrow">
+          <svg viewBox="0 0 40 12" fill="none"><path d="M0 6h36M30 1l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="proc-item">
+          <div class="proc-icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M12 16h16M12 22h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <span class="proc-num">02</span>
+          <h3>Strategy &amp; plan</h3>
+          <p>Concepts, moodboards, and AI-accelerated directions — more creative choices, faster decisions.</p>
+        </div>
+        <div class="proc-arrow">
+          <svg viewBox="0 0 40 12" fill="none"><path d="M0 6h36M30 1l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="proc-item">
+          <div class="proc-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M8 32l8-8 6 6 10-14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <span class="proc-num">03</span>
+          <h3>Design &amp; refine</h3>
+          <p>Every pixel is intentional. High-fidelity design with iterative feedback built into the rhythm.</p>
+        </div>
+        <div class="proc-arrow">
+          <svg viewBox="0 0 40 12" fill="none"><path d="M0 6h36M30 1l6 5-6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="proc-item">
+          <div class="proc-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M10 20l6 6 14-12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <span class="proc-num">04</span>
+          <h3>Build &amp; test</h3>
+          <p>Packaged, documented, and handed off. Post-delivery support to ensure everything lands right.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ TESTIMONIALS ══════════ -->
+  <section class="sec-testi">
+    <div class="shape st-leaf" aria-hidden="true">
+      <svg viewBox="0 0 80 120" fill="none"><path d="M40 120C40 120 0 80 0 40C0 17.9 17.9 0 40 0C62.1 0 80 17.9 80 40C80 80 40 120 40 120Z" fill="currentColor"/></svg>
+    </div>
+    <div class="container">
+      <div class="sec-head center">
+        <span class="label">Kind Words</span>
+        <h2>What clients say.</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <p class="testi-stars">★★★★★</p>
+          <blockquote>"Aria turned our scattered ideas into something we're genuinely proud of. The AI-first workflow was a huge bonus — 3× more concept directions than expected."</blockquote>
+          <div class="testi-by">
+            <div class="testi-av" style="background:#C5D5C5">JL</div>
+            <div><strong>James Liu</strong><span>CEO, NeoBank</span></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-stars">★★★★★</p>
+          <blockquote>"Our app retention improved 28% after the redesign. Aria has a rare ability to balance beauty with usability."</blockquote>
+          <div class="testi-by">
+            <div class="testi-av" style="background:#D4B8A8">SK</div>
+            <div><strong>Sofia Khatri</strong><span>Product Lead, Pulse Health</span></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-stars">★★★★★</p>
+          <blockquote>"The AI Design Sprint was unlike anything. In 3 days we had 12 fully developed brand directions. Incredible value."</blockquote>
+          <div class="testi-by">
+            <div class="testi-av" style="background:#C4C4D4">MR</div>
+            <div><strong>Marco Reyes</strong><span>Founder, Luma Studio</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CONTACT ══════════ -->
+  <section class="sec-contact" id="contact">
+    <div class="shape sc-circle" aria-hidden="true"></div>
+    <div class="shape sc-star" aria-hidden="true">
+      <svg viewBox="0 0 60 60" fill="none"><path d="M30 0L33.5 26.5L60 30L33.5 33.5L30 60L26.5 33.5L0 30L26.5 26.5Z" fill="currentColor"/></svg>
+    </div>
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <span class="label">Get In Touch</span>
+          <h2>Let's work<br /><em>together.</em></h2>
+          <p>I'm currently taking on select projects. Drop me a message — I respond within 24 hours.</p>
+          <a href="mailto:hello@arianova.design" class="contact-email">hello@arianova.design</a>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="fg-row">
+            <div class="fg">
+              <label>Name</label>
+              <input type="text" placeholder="Your name" required />
+            </div>
+            <div class="fg">
+              <label>Email</label>
+              <input type="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="fg">
+            <label>Service needed</label>
+            <select>
+              <option value="">What do you need?</option>
+              <option>AI Brand Identity</option>
+              <option>UI/UX Design</option>
+              <option>Visual Design</option>
+              <option>AI Design Sprint</option>
+              <option>Interaction Design</option>
+              <option>Design Consulting</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label>Message</label>
+            <textarea rows="5" placeholder="Tell me about your project…"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            <span>Send message</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo">Aria Nova<span>.</span></div>
+        <p>Graphic &amp; UI/UX designer<br />creating experiences that matter.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Pages</h4>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h4>Social</h4>
+          <a href="#">Dribbble</a>
+          <a href="#">Behance</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Aria Nova. All rights reserved.</span>
+      <span>Based wherever great work is made.</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
